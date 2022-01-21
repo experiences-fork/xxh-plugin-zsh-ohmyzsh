@@ -31,6 +31,8 @@ ohmyzsh_home=$build_dir/ohmyzsh
 if [ -x "$(command -v git)" ]; then
   git clone $arg_q --depth 1 https://github.com/robbyrussell/oh-my-zsh.git $ohmyzsh_home
   git clone --depth 1 https://github.com/zsh-users/zsh-completions $ohmyzsh_home/plugins/zsh-completions
+  git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git $ohmyzsh_home/plugins/zsh-syntax-highlighting
+  git clone --depth 1 https://github.com/zsh-users/zsh-autosuggestions $ohmyzsh_home/plugins/zsh-autosuggestions
 else
   echo Install git
   exit 1

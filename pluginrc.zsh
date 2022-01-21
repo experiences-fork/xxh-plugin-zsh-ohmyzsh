@@ -22,7 +22,7 @@ else
   if [[ $XXH_VERBOSE == '2' ]]; then
     echo $plugin_name: Set default plugins
   fi
-  export plugins=(git dash docker docker-compose gitignore history kubectl man mvn pip python sudo systemd ubuntu zsh-completions)
+  export plugins=(git dash docker docker-compose gradle gitignore history kubectl man mvn npm node pip python sudo systemd ubuntu zsh-completions zsh-syntax-highlighting zsh-autosuggestions)
 
 fi
 

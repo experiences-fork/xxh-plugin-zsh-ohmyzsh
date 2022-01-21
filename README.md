@@ -6,7 +6,11 @@
 If you like the idea of xxh click ⭐ on the repo and stay tuned.
 </p>
 
-
+## Install
+Install from xxh repo:
+```
+xxh +I xxh-plugin-zsh-ohmyzsh+git+https://github.com/experiences-fork/xxh-plugin-zsh-ohmyzsh
+```
 ## Install
 Install from xxh repo:
 ```
