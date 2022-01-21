@@ -20,9 +20,10 @@ if [[ -v plugins ]]; then
   fi
 else
   if [[ $XXH_VERBOSE == '2' ]]; then
-    echo $plugin_name: Set default plugins=git
+    echo $plugin_name: Set default plugins
   fi
-  export plugins=(git)
+  export plugins=(git dash docker docker-compose gitignore history kubectl man mvn pip python sudo systemd ubuntu zsh-completions)
+
 fi
 
 export DISABLE_AUTO_UPDATE=true
