@@ -29,3 +29,8 @@ fi
 export DISABLE_AUTO_UPDATE=true
 source $CURR_DIR/ohmyzsh/oh-my-zsh.sh
 autoload -U compinit && compinit
+
+if [[ $(command -v exa) ]]; then
+    alias ls='exa -g --group-directories-first --time-style=long-iso --icons'
+fi
+
