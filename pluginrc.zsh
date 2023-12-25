@@ -34,3 +34,9 @@ if [[ $(command -v exa) ]]; then
     alias ls='exa -g --group-directories-first --time-style=long-iso --icons'
 fi
 
+if [[ $(command -v eza) ]]; then
+    unalias ls
+    alias ls='eza -g --group-directories-first --time-style=long-iso --icons'
+fi
+
+
